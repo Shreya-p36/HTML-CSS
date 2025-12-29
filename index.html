@@ -1,77 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Start-up</title>
-    <link rel="Stylesheet" href="child.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vista.IO | Data Analytics Platform</title>
 
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  />
 </head>
 <body>
-    
-    <header class="top">
-        <h3 style="font-size:80px; margin-bottom: 20px ;color: whitesmoke;">Vista.IO</h3>
-        <nav>
-            <i class="fa-solid fa-right-to-bracket"></i>
-            <a id="ln" href="login.html">Log-In</a>
-            <a href="program.html">Programs</a>
-            <a href="sol.html">Solutions</a>
-            
-            
-            <button style=" border: dotted 5px black;font-size:larger;width: 10%;padding: 8px;">Get started</button>
-        </nav>
-    </header>
-    <hr>
-        <section class="n1">
-            <h1>The New Standard
-            <br>in Data Analysis</h1>
-            <div id="t1">
-                <h2>Use Data to Get a 360-Degree View<br> of Your Business</h2>
-            </div>
-            <br>
-            <button class="t2"><a href="#explore" id="t3">Explore more </a></button>
-        </section>
-        <div class="container" id="explore">
-            <div class="item">
-                <div class="p1">
-                    <h1>Let Your Data <br>Take Your Business<br> to Higher Grounds...</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus vero inventore cum magnam, suscipit fugit placeat quam ratione numquam nobis.
-                    </p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="b1"><h1>Cloud Analytics Modernization</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quaerat!</p>
-                </div>
-                <br>
-                <div class="b2">
-                    <h1>Data Science Acceleration</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, magni!</p>
 
-                </div>
-                <div class="b3"><h1>Versatility in Application</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, porro.</p>
-                </div>
-                <div class="b4">
-                   <h1>Full Customer Experience Service</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, provident!</p>
-                </div>
-                
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">Vista.IO</div>
+    <nav class="nav-links">
+      <a href="#">Programs</a>
+      <a href="#">Solutions</a>
+      <a href="#">Login</a>
+      <button class="btn-primary">Get Started</button>
+    </nav>
+  </header>
 
-            </div>
-          </div>
-          <section id="contact">
-            <h1>Contact Me</h1>
-            
-                <input type="text" name="name" placeholder="Name">
-                <input type="email" name="email" placeholder="Email" >
-                <textarea name="message" rows="4" cols="50" placeholder="your message"></textarea>
-                <button type="submit">Send</button>
-            </form>
+  <!-- HERO -->
+  <section class="hero">
+    <h1>The New Standard in Data Analytics</h1>
+    <p>
+      Use modern analytics solutions to gain a complete,
+      360-degree view of your business performance.
+    </p>
+    <a href="#features" class="btn-primary">Explore More</a>
+  </section>
 
-          <footer>
-            <p style="margin-top: 320px;">&copy; 2024 Shreya. All rights reserved.</p>
-        </footer>
+  <!-- FEATURES -->
+  <section id="features" class="features">
+    <div class="feature-card">
+      <i class="fa-solid fa-cloud"></i>
+      <h3>Cloud Analytics</h3>
+      <p>Scalable cloud-native analytics solutions.</p>
+    </div>
+
+    <div class="feature-card">
+      <i class="fa-solid fa-database"></i>
+      <h3>Data Science</h3>
+      <p>Advanced data science and insights acceleration.</p>
+    </div>
+
+    <div class="feature-card">
+      <i class="fa-solid fa-chart-line"></i>
+      <h3>Business Intelligence</h3>
+      <p>Transform raw data into actionable insights.</p>
+    </div>
+
+    <div class="feature-card">
+      <i class="fa-solid fa-users"></i>
+      <h3>Customer Experience</h3>
+      <p>Deliver personalized and seamless experiences.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="4"></textarea>
+      <button class="btn-primary">Send Message</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2024 Vista.IO. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
